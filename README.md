@@ -8,6 +8,6 @@ $ ./test.py --result result/CONFIG_NAME/EXP_VERSION/
 ```
 ## How to open tensorboard
 ```
-$ tensorboard --log_dir=PROJECT_PATH/result/ --host 0.0.0.0 --port PORT_NUMBER
+$ tensorboard --logdir=PROJECT_PATH/result/ --host 0.0.0.0 --port PORT_NUMBER
 ```
 And, open `http://SERVER_URL:PORT_NUMBER` in browser.
