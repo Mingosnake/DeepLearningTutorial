@@ -1,0 +1,16 @@
+# data
+data_domain: "handwritten_digits"
+dataset_name: "mnist"
+
+# train
+# load_exp_version: "20240325_140328"
+device: "cuda:0"
+result_path: "./result"
+batch_size: 64
+lr: 1e-4
+epochs: 20
+
+# model
+model: "image_classifier"
+hidden_dimension: 32
+num_layers: [2, 3, 2]
